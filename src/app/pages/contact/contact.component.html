@@ -1,0 +1,38 @@
+<section id="address">
+  <h3>Nettas Gardinsömnad</h3>
+  <ul data-ng-repeat="data in contact" ng-show="data.id==1">
+    <li>{{name}}</li>
+    <li>{{address}}</li>
+    <li>{{zip}} {{city}}</li>
+    <li>{{country}}</li>
+    <li><a href="mailto:{{email}}">{{email}}</a></li>
+    <li><a href="tel:{{mobile}}">{{mobile}}</a></li>
+  </ul>
+</section>
+<!-- <section id="map" data-ng-repeat="data in contact" data-ng-show="data.id==1">
+  <ng-map id="mapSize" class="mapSize" style="height: 500px;" data-default-style="false" data-center="[{{data.latitude}}, {{data.longitude}}]" data-disable-default-u-i="true" data-zoom="9" data-zoom-control="true" data-street-view-control="true" data-street-view-control-options="{position:'RIGHT_BOTTOM'}" data-styles="[{featureType:'road.highway',elementType:'geometry',stylers:[{hue:'#ff80ab'},{saturation:0},{lightness:0}]},{featureType:'road.arterial',elementType:'all',stylers:[{hue:'#ff80ab'},{lightness:-20},{saturation:80}]}]">
+    <marker data-position="[{{data.latitude}}, {{data.longitude}}]" />
+    <control name="overviewMap" data-opened="true" />
+    <directions data-draggable="true" data-travel-mode="DRIVING" data-origin="current-location" data-destination="[{{data.latitude}}, {{data.longitude}}]"></directions>
+  </ng-map>
+</section> -->
+<section id="contactForm" class="hide-on-small hide-on-large">
+  <h3>Kontaktformulär</h3>
+  <form class="col l6" action="" id="contactForm" method="post">
+    <label class="name" for="name"><span class="icon_person"></span></label>
+    <input type="text" name="name" id="name" placeholder="Skriv ditt namn" tabindex="1" /><br />
+    <label class="email" for="email"><span class="icon_email"></span></label>
+    <input type="text" name="email" id="email" placeholder="Ange din e-post" tabindex="2" /><br />
+    <label class="tel" for="tel"><span class="icon_call"></span></label>
+    <input type="tel" name="tel" id="tel" placeholder="Ange ditt telefonnummer" tabindex="3" /><br />
+    <label class="message" for="message"><span class="icon_message"></span></label>
+    <textarea id="message" placeholder="Skriv ditt meddelande" tabindex="5"></textarea><br />
+
+    <!--Captcha code-->
+    <label class="captcha" for="captcha"><span class="icon_refresh"></span></label>
+    <input type="text" name="captcha" id="captcha" placeholder="Kod" maxlength="4" size="4" tabindex="4" />
+    <span id="captcha_code">5483</span>
+
+    <!-- <button type="submit" name="submit" class="submit button" tabindex="6" />Skicka <span class="icon_send"></span></button> -->
+  </form>
+</section>

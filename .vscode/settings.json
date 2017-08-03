@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    // Files
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tsconfig.json": true,
+    "**/tslint.json": true,
+    "**/karma.conf.js": true,
+    "**/.editorconfig": true,
+    "**/protractor.conf.js": true,
+    "**/tsconfig.*": true,
+    "**/polyfills.ts": true,
+    "**/test.ts": true,
+    "**/typings.d.ts": true,
+    "**/package-lock*": true,
+    "**/README.md": false,
+    "**/.gitignore": false,
+    // Folders
+    "**/e2e": true,
+    "**/node_modules": false,
+    "**/environments": true
+  },
+  "editor.fontSize": 15
+}

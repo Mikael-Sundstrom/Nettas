@@ -1,0 +1,15 @@
+@import "../../assets/scss/variables.scss";
+footer {
+  display: block;
+  position: relative;
+  min-height: 60px;
+  background: $primary;
+  p {
+    line-height: 60px;
+    text-align: center;
+    font-family: 'league script';
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff
+  }
+}

@@ -1,0 +1,151 @@
+/* Font icons */
+
+$icomoon-font-path: "../../fonts/NettasGardinsomnad" !default;
+$icon_home: "\e800";
+$icon_person: "\e801";
+$icon_map: "\e802";
+$icon_call: "\e803";
+$icon_email: "\e804";
+$icon_message: "\e805";
+$icon_textsms: "\e806";
+$icon_album: "\e807";
+$icon_send: "\e808";
+$icon_refresh: "\e809";
+$icon_sudoku: "\e80a";
+$icon_attach: "\e80b";
+$icon_translate: "\e80c";
+$icon_backward: "\e80d";
+$icon_forward: "\e80e";
+$icon_close: "\e80f";
+@font-face {
+  font-family: 'NettasGardinsomnad';
+  src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon_home,
+.icon_person,
+.icon_map,
+.icon_call,
+.icon_email,
+.icon_message,
+.icon_textsms,
+.icon_album,
+.icon_send,
+.icon_refresh,
+.icon_sudoku,
+.icon_attach,
+.icon_translate,
+.icon_backward,
+.icon_forward,
+.icon_close {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'NettasGardinsomnad' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -1px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_home {
+  &:before {
+    content: $icon_home;
+  }
+}
+
+.icon_person {
+  &:before {
+    content: $icon_person;
+  }
+}
+
+.icon_map {
+  &:before {
+    content: $icon_map;
+  }
+}
+
+.icon_call {
+  &:before {
+    content: $icon_call;
+  }
+}
+
+.icon_email {
+  &:before {
+    content: $icon_email;
+  }
+}
+
+.icon_message {
+  &:before {
+    content: $icon_message;
+  }
+}
+
+.icon_textsms {
+  &:before {
+    content: $icon_textsms;
+  }
+}
+
+.icon_album {
+  &:before {
+    content: $icon_album;
+  }
+}
+
+.icon_send {
+  &:before {
+    content: $icon_send;
+  }
+}
+
+.icon_refresh {
+  &:before {
+    content: $icon_refresh;
+  }
+}
+
+.icon_sudoku {
+  &:before {
+    content: $icon_sudoku;
+  }
+}
+
+.icon_attach {
+  &:before {
+    content: $icon_attach;
+  }
+}
+
+.icon_translate {
+  &:before {
+    content: $icon_translate;
+  }
+}
+
+.icon_backward {
+  &:before {
+    content: $icon_backward;
+  }
+}
+
+.icon_forward {
+  &:before {
+    content: $icon_forward;
+  }
+}
+
+.icon_close {
+  &:before {
+    content: $icon_close;
+  }
+}

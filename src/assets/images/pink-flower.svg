@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="43.3492mm" height="43.3492mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4335 4335"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil11 {fill:#EF7F1A}
+    .fil10 {fill:#A4205B}
+    .fil12 {fill:url(#id0)}
+    .fil9 {fill:url(#id1)}
+    .fil5 {fill:url(#id2)}
+    .fil6 {fill:url(#id3)}
+    .fil7 {fill:url(#id4)}
+    .fil8 {fill:url(#id5)}
+    .fil2 {fill:url(#id6)}
+    .fil1 {fill:url(#id7)}
+    .fil0 {fill:url(#id8)}
+    .fil3 {fill:url(#id9)}
+    .fil4 {fill:url(#id10)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="2170.75" y1="2599.71" x2="2170.75" y2="1743.73">
+   <stop offset="0" style="stop-color:#EF7F1A"/>
+   <stop offset="1" style="stop-color:#FFED00"/>
+  </linearGradient>
+  <radialGradient id="id1" gradientUnits="userSpaceOnUse" cx="2915.55" cy="3409.47" r="730.05" fx="2915.55" fy="3409.47">
+   <stop offset="0" style="stop-color:#E5097F"/>
+   <stop offset="0.701961" style="stop-color:#E62C8A"/>
+   <stop offset="1" style="stop-color:#E74F95"/>
+  </radialGradient>
+  <radialGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id1" cx="2186.41" cy="919.78" r="739.32" fx="2186.41" fy="919.78">
+  </radialGradient>
+  <radialGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id1" cx="1257.15" cy="3179.56" r="701.78" fx="1257.15" fy="3179.56">
+  </radialGradient>
+  <radialGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id1" cx="1034.57" cy="1741.55" r="756.11" fx="1034.57" fy="1741.55">
+  </radialGradient>
+  <radialGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id1" cx="3438.54" cy="1846.86" r="758.9" fx="3438.54" fy="1846.86">
+  </radialGradient>
+  <radialGradient id="id6" gradientUnits="userSpaceOnUse" cx="971.83" cy="2055.33" r="760.09" fx="971.83" fy="2055.33">
+   <stop offset="0" style="stop-color:#C61A62"/>
+   <stop offset="0.701961" style="stop-color:#C7246B"/>
+   <stop offset="1" style="stop-color:#C72D74"/>
+  </radialGradient>
+  <radialGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id6" cx="1520.92" cy="3379.74" r="746.81" fx="1520.92" fy="3379.74">
+  </radialGradient>
+  <radialGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id6" cx="1788.11" cy="959.87" r="775.52" fx="1788.11" fy="959.87">
+  </radialGradient>
+  <radialGradient id="id9" gradientUnits="userSpaceOnUse" xlink:href="#id6" cx="3357.24" cy="1458.86" r="802.66" fx="3357.24" fy="1458.86">
+  </radialGradient>
+  <radialGradient id="id10" gradientUnits="userSpaceOnUse" xlink:href="#id6" cx="3244.64" cy="3171.23" r="745.48" fx="3244.64" fy="3171.23">
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_539303064">
+   <path class="fil0" d="M1905 1865c0,0 -505,-342 -683,-654 -148,-260 -256,-674 22,-926 575,236 661,730 661,730 0,0 0,0 -51,-381 -51,-379 107,-599 109,-601 488,-20 638,461 642,798 5,359 -257,910 -257,910 -101,104 -168,114 -209,99 -26,35 -88,65 -233,25z"/>
+   <path class="fil1" d="M1881 2475c0,0 -570,215 -816,478 -219,234 -434,652 -141,971l97 -11c0,0 268,-50 493,-361 225,-312 225,-312 225,-312 0,0 -277,418 -22,985 10,23 19,45 27,67 325,-39 511,-379 579,-649 88,-348 -40,-945 -40,-945 -74,-125 -137,-149 -181,-144 -18,-41 -71,-84 -221,-78z"/>
+   <path class="fil2" d="M1832 1924c0,0 -430,-432 -770,-549 -308,-106 -787,-129 -951,288 60,77 201,221 462,304 366,116 366,116 366,116 0,0 -451,-123 -894,246 75,478 573,534 904,475 354,-63 845,-423 845,-423 84,-119 80,-186 58,-224 30,-33 47,-99 -19,-234z"/>
+   <path class="fil3" d="M2390 1772c0,0 238,-561 509,-797 233,-201 634,-391 937,-138 -73,612 -523,828 -523,828 0,0 0,0 353,-152 229,-99 417,-94 521,-78 149,501 -309,752 -649,823 -352,74 -942,-77 -942,-77 -122,-79 -144,-143 -137,-186 -40,-19 -81,-74 -69,-224z"/>
+   <path class="fil4" d="M2336 2677c0,0 120,598 339,883 181,236 520,494 857,340l9 -102c0,0 6,-272 -253,-556 -259,-284 -259,-284 -259,-284 0,0 353,357 959,223 39,-9 76,-14 111,-18 54,-356 -272,-615 -541,-732 -330,-143 -939,-114 -939,-114 -135,53 -170,111 -172,155 -43,11 -94,56 -113,206z"/>
+  </g>
+  <g id="_538449688">
+   <path class="fil5" d="M1997 1814c0,0 -389,-469 -473,-819 -70,-291 -57,-719 280,-882 486,387 430,886 430,886 0,0 0,0 58,-380 58,-378 271,-545 273,-546 474,118 483,621 393,946 -96,346 -502,801 -502,801 -126,72 -193,62 -229,36 -35,27 -103,38 -231,-42z"/>
+   <path class="fil6" d="M1804 2392c0,0 -608,47 -917,230 -276,163 -599,505 -407,893l96 16c0,0 271,27 574,-209 303,-236 303,-236 303,-236 0,0 -383,324 -297,939 3,25 6,49 7,72 323,54 597,-221 737,-461 182,-310 226,-918 226,-918 -36,-141 -90,-182 -133,-189 -5,-44 -45,-100 -190,-137z"/>
+   <path class="fil7" d="M1911 1850c0,0 -292,-535 -586,-742 -266,-188 -720,-344 -994,10 36,90 131,269 359,421 319,214 319,214 319,214 0,0 -399,-245 -928,-14 -62,480 400,673 735,709 357,39 930,-170 930,-170 114,-91 129,-157 118,-199 38,-23 73,-82 47,-230z"/>
+   <path class="fil8" d="M2489 1860c0,0 385,-472 712,-622 280,-128 718,-198 938,130 -242,567 -734,649 -734,649 0,0 0,0 381,-47 248,-31 427,27 522,71 2,523 -508,635 -853,609 -358,-28 -883,-338 -883,-338 -95,-110 -98,-178 -79,-217 -33,-30 -57,-94 -4,-234z"/>
+   <path class="fil9" d="M2183 2714c0,0 -52,607 78,942 108,278 360,620 727,567l37 -95c0,0 82,-259 -87,-605 -169,-345 -169,-345 -169,-345 0,0 239,441 858,483 40,3 77,8 112,14 152,-326 -89,-667 -314,-854 -276,-230 -869,-373 -869,-373 -145,13 -194,59 -208,101 -44,-2 -106,28 -166,166z"/>
+  </g>
+  <g id="_538449016">
+   <circle class="fil10" cx="2163" cy="2179" r="538"/>
+   <circle class="fil10" cx="2163" cy="2179" r="472"/>
+  </g>
+  <g id="_538448296">
+   <circle class="fil11" cx="2171" cy="2172" r="487"/>
+   <circle class="fil12" cx="2171" cy="2172" r="428"/>
+  </g>
+ </g>
+</svg>

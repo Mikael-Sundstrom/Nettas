@@ -1,0 +1,200 @@
+@import "../../../../node_modules/compass-mixins/lib/compass";
+@import "../../../assets/scss/variables";
+section {
+  padding: 16px 16px 16px 20px;
+  p {
+    margin: 25.5px 5px 0px;
+    line-height: 25px;
+    font-size: 22px;
+    font-weight: 300;
+    font-weight: bolder;
+    text-align: left;
+    text-shadow: 1px 1px 0 #ffffff;
+    &:first-letter {
+      display: block;
+      float: left;
+      margin: 10xp -5px 0 -5px;
+      font-size: 60px;
+      font-weight: lighter;
+    }
+    a {
+      color: $primary;
+      text-decoration: none;
+      &:hover,
+      &:focus {
+        color: $thirdly;
+      }
+    }
+    img.flower {
+      margin-top: 15px;
+      max-width: 100px;
+      float: right;
+    }
+  }
+  p.sign {
+    line-height: 25px;
+    font-size: 46px;
+    font-weight: 300;
+    font-weight: bolder;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  figure {
+    position: relative;
+    float: right;
+    margin: 0 0 16px 16px;
+    height: 150px;
+    width: 150px;
+    background: -webkit-linear-gradient(top, rgba(255, 145, 0, 0.2) 0%, rgba(255, 230, 48, 0.2) 60%), -webkit-linear-gradient(20deg, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 35%);
+    z-index: 8;
+    &:before,
+    &:after {
+      @include box-shadow(0 15px 10px #444);
+      @include transform (rotate(-3deg));
+      content: "";
+      position: absolute;
+      top: 85%;
+      bottom: 15px;
+      left: 2px;
+      width: 50%;
+      z-index: -1;
+    }
+    &:after {
+      @include transform (rotate(3deg));
+      right: 2px;
+      left: auto;
+    }
+    img {
+      -webkit-filter: sepia(0.2) brightness(1.1) contrast(1.3);
+    }
+  }
+}
+
+
+/* Paper */
+
+@media screen and (min-width: 571px) {
+  .papers {
+    border: 1px solid #e6e6e6;
+    position: relative;
+    width: 75%;
+    margin: 50px auto;
+    padding: 22px;
+    &:before {
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #e6e6e6;
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), 1px 1px 2px rgba(0, 0, 0, 0.2);
+      background-image: url('../../../assets/images/paper.png');
+      z-index: -3;
+      position: absolute;
+      -webkit-transform: rotateZ(2.5deg);
+      -o-transform: rotate(2.5deg);
+      transform: rotateZ(2.5deg);
+    }
+    &:after {
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -3;
+      position: absolute;
+      border: 1px solid #e6e6e6;
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), 1px 1px 2px rgba(0, 0, 0, 0.2);
+      background-image: url('../../../assets/images/paper.png');
+      background-position-y: 5px;
+    }
+  }
+}
+
+.papers h5 {
+  margin: 26px 0px 0px 0px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 25px;
+  font-weight: bolder;
+}
+
+.papers h5:first-letter {
+  font-size: 100px;
+  float: left;
+  display: block;
+  margin: 12px -5px;
+  font-weight: lighter;
+}
+
+.papers p {
+  text-align: left;
+  margin: 25.5px 5px 0px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bolder;
+}
+
+.papers p:first-letter {
+  font-size: 60px;
+  float: left;
+  display: block;
+  margin: 10xp -5px 0 -5px;
+  font-weight: lighter;
+}
+
+
+/* Pencil */
+
+#pencil {
+  width: 22px;
+  position: relative;
+  float: right;
+  #point {
+    position: relative;
+    z-index: 20;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 8px solid #595959;
+    top: 7px;
+    left: 8px;
+  }
+  #wood {
+    width: 0;
+    height: 0;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    border-bottom: 26px solid #EDCF7B;
+    z-index: 10;
+    position: relative;
+  }
+  #stock-left {
+    height: 220px;
+    float: left;
+    background-color: #FFDA36;
+    width: 14px;
+  }
+  #stock-right {
+    height: 220px;
+    float: left;
+    background-color: #FFCC00;
+    width: 8px;
+  }
+  #metal {
+    background-color: #888888;
+    width: 22px;
+    height: 10px;
+    clear: both;
+  }
+  #rubber {
+    background-color: #D95080;
+    width: 22px;
+    height: 14px;
+    clear: both;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}

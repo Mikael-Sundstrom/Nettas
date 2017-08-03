@@ -1,0 +1,23 @@
+@import "variables";
+main {
+  section {
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        font-weight: 600;
+        background-color: #aaaaaa;
+      }
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    }
+  }
+}

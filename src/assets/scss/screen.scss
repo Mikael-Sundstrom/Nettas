@@ -1,0 +1,28 @@
+@import "variables";
+@import "../../../node_modules/compass-mixins/lib/compass";
+@import "reset";
+@import "font-icons";
+@import "contact-form";
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.handscript {
+  font-family: "League script";
+  color: #888888;
+}
+
+@media screen and (max-width: $brakepoint) {
+  .hide-on-small {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $brakepoint) {
+  .hide-on-large {
+    display: none;
+  }
+}
