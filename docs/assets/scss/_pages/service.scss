@@ -1,0 +1,31 @@
+@import "_components/variables";
+main.service {
+  padding-top: 70px;
+  header {
+    img {
+      height: auto;
+      width: 100%;
+      padding: 26px 0;
+    }
+    h1 {
+      padding: 8px 0 30px 0;
+      font-size: 48px;
+      color: $primary;
+      text-align: center;
+      text-shadow: 1px 1px 0 #ffffff;
+    }
+  }
+  div {
+    display: inline-block;
+    width: calc(25% - 16px);
+    padding: 8px;
+    img {
+      width: 100%;
+    }
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}

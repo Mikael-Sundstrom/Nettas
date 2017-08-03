@@ -1,0 +1,49 @@
+form#contactForm {
+  position: relative;
+  input,
+  label,
+  textarea {
+    line-height: 28px;
+    height: 28px;
+    font-size: 1.05rem;
+    border-radius: 0.2em;
+    margin: 4px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  label {
+    vertical-align: top;
+    line-height: 38px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #444;
+  }
+  span#captcha_code {
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #444;
+  }
+  textarea#message {
+    height: 128px;
+    width: calc(100% - 50px);
+    border: inset 2px #ffffff;
+  }
+  button.submit {
+    display: block;
+    float: right;
+    padding: 0 6px;
+    margin-top: 4px;
+    line-height: 32px;
+    background: $secondary;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    &:hover {
+      box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+      background: lighten($secondary, 7%);
+    }
+    &:active {
+      background: $secondary;
+    }
+  }
+}
